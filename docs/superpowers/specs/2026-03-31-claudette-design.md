@@ -399,7 +399,13 @@ Claudette/
 
 - `OPENAI_API_KEY`
 - `OPENAI_BASE_URL`
-- `OPENAI_MODEL`
+- `CLAUDETTE_MODEL`
+
+为了兼容基于 OpenAI-compatible 协议的其他服务，运行时也可接受 provider 别名环境变量，例如：
+
+- `DASHSCOPE_API_KEY` / `QWEN_API_KEY`
+- `DASHSCOPE_BASE_URL` / `QWEN_BASE_URL`
+- `DASHSCOPE_MODEL` / `QWEN_MODEL`
 
 可选允许项目内 `.claudette/config.json` 做覆盖。
 
